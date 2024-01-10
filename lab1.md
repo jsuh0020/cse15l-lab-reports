@@ -33,6 +33,7 @@
    ![Image](lab1_6.png)
    <br />
    I ran the command "ls /home/lecture1/Hello.java". The output I got was "Hello.java". This makes sense because what you're asking to do is list all the files in "Hello.java", but since that itself is a file, it is just listing the file name itself. This is not an error because ls is still functioning as normal.
+   
 ## cat Command
 1. **cat with no arguments**
    <br />
