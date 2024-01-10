@@ -27,7 +27,7 @@
    <br />
    ![Image](lab1_5.png)
    <br />
-   I ran the command "ls /home/lecture1/messages". The output I got was a list of all the files in the messages and directory. By supplying a path to a directory as an argument, we are basically asking to list all the files in that directory path, which is the function of ls, and therefore this output is not an error because it outputted all the files of messages as required.
+   I ran the command "ls /home/lecture1/messages". The output I got was a list of all the files in the messages directory. By supplying a path to a directory as an argument, we are basically asking to list all the files in that directory path, which is the function of ls, and therefore this output is not an error because it outputted all the files of messages as required.
 3. **ls with path to file as argument**
    <br />
    ![Image](lab1_6.png)
