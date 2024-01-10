@@ -36,16 +36,16 @@
 ## cat Command
 1. **cat with no arguments**
    <br />
-   ![Image](lab1_3.png)
+   ![Image](lab1_7.png)
    <br />
    Running the cat command with no arguments just made it so that I could make inputs with my keyboard, although I don't think those inputs were stored anywhere, and exited only when I gave it an end-of-file signal of Ctrl C. The cat command is used to display the content of the file or concatenate files, but leaving no arguments leaves no file to display, so I would say that this is an error because the cat command should be supplied with arguments.
 2. **cat with path to directory as argument**
    <br />
-   ![Image](lab1_3.png)
+   ![Image](lab1_8.png)
    <br />
    I ran the command "cat messages" in the lecture1 directory. It gave me an output of "cat: messages/: Is a directory". I got this output because cat is meant to be used to display the contents of a file, not a directory, and to display the contents of a directory you should use ls instead. I would say that this output is an error because we are trying to use a command thats meant for files on a directory, and the output explicitly told us that what we're trying to use the command on is a directory, and thus failed.
 3. **cat with path to file as argument**
    <br />
-   ![Image](lab1_3.png)
+   ![Image](lab1_9.png)
    <br />
    I ran the command "cat README" in the lecture1 directory. The output was the contents of the README file, which makes sense because the most common use of cat is to display the contents of a file, which in this case is README, so the output is not an error.
