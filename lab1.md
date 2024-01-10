@@ -15,7 +15,7 @@
    <br />
    ![Image](lab1_3.png)
    <br />
-   I was in the messages directory, and tried to cd into "zh-cn.txt", and got an output of "bash: cd: zh-cn.txt: Not a directory". This makes sense because cd means to change directory, not to change to a file, so attempting to change to something that is not a directory will produce a similar output. This output is an error because the expected use of cd is to change to a directory and this was not a proper use of cd.
+   I was in the messages directory, and tried to cd into "zh-cn.txt", and got an output of "bash: cd: zh-cn.txt: Not a directory". This makes sense because cd means to change directory, not to change to a file, so attempting to change to something that is not a directory will produce a similar error. This output is an error because the expected use of cd is to change to a directory and this was not a proper use of cd, since cd cannot be used to navigate to a file.
 
 ## ls Command
 1. **ls with no arguments**
@@ -27,12 +27,12 @@
    <br />
    ![Image](lab1_5.png)
    <br />
-   I ran the command "ls /home/lecture1/messages". The output I got was a list of all the files in the messages directory. By supplying a path to a directory as an argument, we are basically asking to list all the files in that directory path, which is the function of ls, and therefore this output is not an error because it outputted all the files of messages as required.
+   I ran the command "ls /home/lecture1/messages". The output I got was a list of all the files in the messages directory. By supplying a path to a directory as an argument, we are basically asking to list all the files in that directory path, which is the function of ls, and therefore this output is not an error because it outputted all the files of the messages directory as required.
 3. **ls with path to file as argument**
    <br />
    ![Image](lab1_6.png)
    <br />
-   I ran the command "ls /home/lecture1/Hello.java". The output I got was "Hello.java". This makes sense because what you're asking to do is list all the files in "Hello.java", but since that itself is a file, it is just listing the file name itself. This is not an error because ls is still functioning as normal.
+   I ran the command "ls /home/lecture1/Hello.java". The output I got was "Hello.java". This makes sense because what you're asking to do is list all the files in "Hello.java", but since that itself is a file, it is just listing the file name itself. This is not an error because ls is still functioning as normal, but it could still be seen as an error since you're meant to use ls for directories.
    
 ## cat Command
 1. **cat with no arguments**
