@@ -39,7 +39,7 @@
    <br />
    ![Image](lab1_7.png)
    <br />
-   Running the `cat` command with no arguments just made it so that I could make inputs with my keyboard, although I don't think those inputs were stored anywhere, and exited only when I gave it an end-of-file signal of Ctrl C. The cat command is used to display the content of the file or concatenate files, but leaving no arguments leaves no file to display, so I would say that this is an error because the `cat` command should be supplied with arguments.
+   Running the `cat` command with no arguments just made it so that I could make inputs with my keyboard, although I don't think those inputs were stored anywhere, and exited only when I gave it an end-of-file signal of Ctrl C. The `cat` command is used to display the content of the file or concatenate files, but leaving no arguments leaves no file to display, so I would say that this is an error because the `cat` command should be supplied with arguments.
 2. **cat with path to directory as argument**
    <br />
    ![Image](lab1_8.png)
