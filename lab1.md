@@ -22,7 +22,7 @@
    <br />
    ![Image](lab1_4.png)
    <br />
-   I was in the `lecture1` directory, and just ran `ls`. The output I got was a list of all the files and directories that had the parent directory of `lecture1`, which in this case was `Hello.class`, `Hello.java`, `messages`, and `README`. The function of ls is to list all files in the current directory, so this output was expected and therefore not an error because all 4 of those files are subdirectories or files of `lecture1`.
+   I was in the `lecture1` directory, and just ran `ls`. The output I got was a list of all the files and directories that had the parent directory of `lecture1`, which in this case was `Hello.class`, `Hello.java`, `messages`, and `README`. The function of `ls` is to list all files in the current directory, so this output was expected and therefore not an error because all 4 of those files are subdirectories or files of `lecture1`.
 2. **ls with path to directory as argument**
    <br />
    ![Image](lab1_5.png)
