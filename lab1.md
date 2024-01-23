@@ -5,7 +5,7 @@
    <br />
    ![Image](/lab1_1.png)
    <br />
-   The directory I was in was `/home/lecture1`. Running `cd` with no arguments appears to just have brought me back to the home directory, at `/home`. `cd` means to "change directory", so having no arguments would just bring you to the `home` directory. There is no output, because you are just changing the directory.
+   The directory I was in was `/home/lecture1`. Running `cd` with no arguments appears to just have brought me back to the `home` directory, at `/home`. `cd` means to "change directory", so having no arguments would just bring you to the `home` directory. There is no output, because you are just changing the directory.
 2. **cd with path to directory as argument**
    <br />
    ![Image](/lab1_2.png)
