@@ -4,7 +4,7 @@
 
 Below is the code that I made to implement a chat server
 
-**ChatServer.java**
+`**ChatServer.java**`
 
 ```java
 import java.io.IOException;
@@ -53,7 +53,7 @@ class ChatServer {
 }
 ```
 
-**Server.java** (Same as Server.java used for SearchEngine Project)
+`**Server.java**` **(Same as Server.java used for SearchEngine Project)**
 
 ```java
 import java.io.IOException;
