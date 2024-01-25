@@ -136,4 +136,4 @@ public class Server {
 
 ## Part 3
 
-From today's lab, I learned about commands like `scp`, `mkdir`, `ssh-keygen` which allowed me to login to the `ieng6` server without using a password. I have never seen or used these commands before, and it seems like for today's purposes, they were all related to setting up SSH keys. I also learned that the keys we utilized for easy `ieng6` server access are split into public and private keys, rather than one general key.
+From today's lab, I learned about commands like `scp`, `mkdir`, and `ssh-keygen` which allowed me to login to the `ieng6` server without using a password. I have never seen or used these commands before, and it seems like for today's purposes, they were all related to setting up SSH keys. I also learned that the keys we utilized for easy `ieng6` server access are split into public and private keys, rather than one general key.
