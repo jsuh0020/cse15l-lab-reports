@@ -50,7 +50,7 @@ class ChatServer {
 }
 ```
 
-### `Server.java` **(Same as Server.java used for SearchEngine Project)**
+### `Server.java` **(Same as `Server.java` used for SearchEngine Project)**
 
 ```java
 import java.io.IOException;
