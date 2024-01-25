@@ -116,7 +116,7 @@ public class Server {
 
 ![Image](/lab2_images/lab2_1.png)
 
-* This second example is similar to the first example, in that the `Server` class is calling the `handleRequest` method from the `Handler` class.
+* This second example is similar to the first example, in that the `Server` class is calling the `handleRequest` method in the `Handler` class.
 * This method still takes in `url` as its argument, which was `"http://localhost:2883/add-message?s=My%20Second%20Example!&user=Suh"`. The `listOfMessages` field is set to `"Justin: This is my first example for lab 2\n"` from the first request
 * After the request, the `listOfMessages` field is updated to `"Justin: This is my first example for lab 2\nSuh:My Second Example!\n"`.
 
