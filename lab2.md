@@ -111,13 +111,13 @@ public class Server {
 ![Image](/lab2_images/lab2_1.png)
 
 * In this first example, the method that is being called when using the `add-message` path is `handleRequest` in the `Handler` class, which is called from the `Server` class.
-* This method takes in `url` as its argument, which in this case was `"http://localhost:2883/add-message?s=This%20is%20my%20first%20example%20for%20lab%202&user=Justin"`. The only notable value is the field `listOfMessages` of type `String` which was initially `""`.
+* This method takes in `url` as its argument, which in this case was `"http://localhost:2883/add-message?s=This is my first example for lab 2&user=Justin"`. The only notable value is the field `listOfMessages` of type `String` which was initially `""`.
 * After the request, the `listOfMessages` field is updated to `"Justin: This is my first example for lab 2\n"`.
 
 ![Image](/lab2_images/lab2_1.png)
 
 * This second example is similar to the first example, in that the `Server` class is calling the `handleRequest` method in the `Handler` class.
-* This method still takes in `url` as its argument, which was `"http://localhost:2883/add-message?s=My%20Second%20Example!&user=Suh"`. The `listOfMessages` field is set to `"Justin: This is my first example for lab 2\n"` from the first request
+* This method still takes in `url` as its argument, which was `"http://localhost:2883/add-message?s=My Second Example!&user=Suh"`. The `listOfMessages` field is set to `"Justin: This is my first example for lab 2\n"` from the first request
 * After the request, the `listOfMessages` field is updated to `"Justin: This is my first example for lab 2\nSuh:My Second Example!\n"`.
 
 ## Part 2
