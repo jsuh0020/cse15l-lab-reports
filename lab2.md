@@ -121,3 +121,19 @@ public class Server {
 * After the request, the `listOfMessages` field is updated to `"Justin: This is my first example for lab 2\nSuh:My Second Example!\n"`.
 
 ## Part 2
+
+### Absolute Path of Private Key
+
+![Image](/lab2_images/lab2_3.png)
+
+### Absolute Path of Public Key
+
+![Image](/lab2_images/lab2_4.png)
+
+### Accessing `ieng6` Without a Password
+
+![Image](/lab2_images/lab2_5.png)
+
+## Part 3
+
+From today's lab, I learned about commands like `scp`, `mkdir`, `ssh-keygen` which allowed me to login to the `ieng6` server without using a password. I have never seen or used these commands before, and it seems like for today's purposes, they were all related to setting up SSH keys. I also learned that the keys we utilized for easy `ieng6` server access are split into public and private keys, rather than one general key.
