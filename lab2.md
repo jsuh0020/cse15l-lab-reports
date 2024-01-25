@@ -5,7 +5,8 @@
 Below is the code that I made to implement a chat server
 
 **ChatServer.java**
-```
+
+```java
 import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
@@ -53,7 +54,8 @@ class ChatServer {
 ```
 
 **Server.java** (Same as Server.java used for SearchEngine Project)
-```
+
+```java
 import java.io.IOException;
 import java.io.OutputStream;
 import java.net.InetSocketAddress;
