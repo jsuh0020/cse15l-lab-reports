@@ -114,7 +114,7 @@ public class Server {
 * This method takes in `url` as its argument, which in this case was `"http://localhost:2883/add-message?s=This is my first example for lab 2&user=Justin"`. The only notable value is the field `listOfMessages` of type `String` which was initially `""`.
 * After the request, the `listOfMessages` field is updated to `"Justin: This is my first example for lab 2\n"`.
 
-![Image](/lab2_images/lab2_1.png)
+![Image](/lab2_images/lab2_2.png)
 
 * This second example is similar to the first example, in that the `Server` class is calling the `handleRequest` method in the `Handler` class.
 * This method still takes in `url` as its argument, which was `"http://localhost:2883/add-message?s=My Second Example!&user=Suh"`. The `listOfMessages` field is set to `"Justin: This is my first example for lab 2\n"` from the first request.
