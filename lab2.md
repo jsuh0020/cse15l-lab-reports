@@ -110,3 +110,6 @@ public class Server {
 ```
 
 ### Usage of `add-message`
+
+![Image](/lab2_images/lab2_1.png)
+![Image](/lab2_images/lab2_1.png)
