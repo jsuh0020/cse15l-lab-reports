@@ -44,9 +44,11 @@ Before:
    }
    double sum = 0;
    for (double num : arr) {
-     sum += num;
+     if (num != lowest) {
+       sum += num;
+     }
    }
-   return (sum - lowest) / (arr.length - 1);
+   return sum / (arr.length - 1);
  }
 ```
 
@@ -65,13 +67,10 @@ After:
    }
    double sum = 0;
    for (double num : arr) {
-     if (num != lowest) {
-       sum += num;
-     }
+     sum += num;
    }
-   return sum / (arr.length - 1);
+   return (sum - lowest) / (arr.length - 1);
  }
-
 ```
 
 ## Part 2 - Researching Commands
