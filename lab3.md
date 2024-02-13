@@ -29,7 +29,7 @@ For my bug, I chose to analyze the `averageWithoutLowest` method in the `ArrayEx
 
 ### The Bug
 
-Before:
+**Before:**
 
 ```java
  static double averageWithoutLowest(double[] arr) {
@@ -52,7 +52,7 @@ Before:
  }
 ```
 
-After:
+**After:**
 
 ```java
  static double averageWithoutLowest(double[] arr) {
@@ -72,5 +72,7 @@ After:
    return (sum - lowest) / (arr.length - 1);
  }
 ```
+
+The issue with the original method was that it wasn't accounting for a scenario where duplicates of the lowest number were present. In the for loop of the original method, we check that `num != lowest`, such that all duplicates of the lowest number are also not accounted for. To fix this, I changed the for loop to have the sum add up ALL numbers in the array, and accounted for removing only ONE copy of the lowest number in my return statement with `(sum - lowest)`.
 
 ## Part 2 - Researching Commands
