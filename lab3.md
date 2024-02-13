@@ -31,10 +31,47 @@ For my bug, I chose to analyze the `averageWithoutLowest` method in the `ArrayEx
 
 Before:
 
-![Image](/lab3_images/lab3_2.png)
+```java
+ static double averageWithoutLowest(double[] arr) {
+   if (arr.length < 2) {
+     return 0.0;
+   }
+   double lowest = arr[0];
+   for (double num : arr) {
+     if (num < lowest) {
+       lowest = num;
+     }
+   }
+   double sum = 0;
+   for (double num : arr) {
+     sum += num;
+   }
+   return (sum - lowest) / (arr.length - 1);
+ }
+```
 
 After:
 
-![Image](/lab3_images/lab3_3.png)
+```java
+ static double averageWithoutLowest(double[] arr) {
+   if (arr.length < 2) {
+     return 0.0;
+   }
+   double lowest = arr[0];
+   for (double num : arr) {
+     if (num < lowest) {
+       lowest = num;
+     }
+   }
+   double sum = 0;
+   for (double num : arr) {
+     if (num != lowest) {
+       sum += num;
+     }
+   }
+   return sum / (arr.length - 1);
+ }
+
+```
 
 ## Part 2 - Researching Commands
