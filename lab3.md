@@ -81,7 +81,7 @@ The issue with the original method was that it wasn't accounting for a scenario 
 
 Source: `grep` manual
 
-**Example 1: Searching For Uppercase With Lowercase Pattern**
+**Example 1: Searching For "abbreviations" Without Case Sensitivity**
 
 ```
 $ grep -i "abbreviations" technical/biomed/rr74.txt
@@ -90,7 +90,7 @@ $ grep -i "abbreviations" technical/biomed/rr74.txt
 
 By default, the `grep` command is case sensitive, but by adding the `-i` flag onto the grep command, you're searching for the pattern without case sensitivity. That is why when I searched for "abbreviations", "Abbreviations" was given as output, although it is uppercase, which is useful since I still wanted to search for the word "abbreviations".
 
-**Example 2: Searching For All Matching Patterns**
+**Example 2: Searching For "recent" Without Case Sensitivity**
 
 ```
 $ grep -i "recent" technical/biomed/rr166.txt 
