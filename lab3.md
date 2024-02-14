@@ -155,7 +155,7 @@ $ grep -n "bio" /technical/biomed/ar104.txt | wc -l
 5
 ```
 
-This command is the same as the one in example 1, except we're piping the output into wc -l, which checks how many lines there are (in this case 5). This could be useful if you need data on how many lines contain a certain pattern.
+This command is the same as the one in example 1, except we're piping the output into `wc -l`, which checks how many lines there are (in this case 5). This could be useful if you need data on how many lines contain a certain pattern.
 
 ### Match Everything Besides Specified Pattern (`grep -v`)
 
@@ -204,4 +204,4 @@ $ find technical/911report -type f | grep -v "chapter"
 ./preface.txt
 ```
 
-This command searches through the technical/911report directory and outputs any files that don't have "chapter" in their name. This application of `grep -v` is useful if theres a lot of files in a directory and you are trying to filter out files with irrelevant information based on the title of the file.
+This command searches through the `technical/911report` directory and outputs any files that don't have "chapter" in their name. This application of `grep -v` is useful if theres a lot of files in a directory and you are trying to filter out files with irrelevant information based on the title of the file.
