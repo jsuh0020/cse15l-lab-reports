@@ -146,7 +146,7 @@ $ grep -n "bio" /technical/biomed/ar104.txt
 331:          biotin-conjugated antimouse whole IgG (heavy and light
 ```
 
-`grep -n` prints out the line in which the pattern was found along with the contents of the line. This could be useful if you have to cite a document and need a specific line where something was said, or if you have to revisit the file and need context around which the pattern was found, and you could read the file around the outputted line numbers.
+`grep -n` prints out the line in which the pattern was found along with the contents of the line. This could be useful if you have to cite a document and need a specific line where something was said, or if you have to revisit the file and need context around where the pattern was found, and you could read the file around the outputted line numbers.
 
 **Example 2: Counting Number of Lines With Pattern**
 
