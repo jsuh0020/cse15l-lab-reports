@@ -24,13 +24,13 @@ Keys pressed: `cd l<TAB><ENTER>bash t<TAB><ENTER>`. The `cd` portion of these co
 
 Keys Pressed: `vim L<TAB>.j<TAB><Enter>`. This command runs vim on the `ListExamples.java` file. I tab completed `L` into `ListExamples`, but since there are multiple files starting with `ListExamples`, I had to tab complete `.j` into `.java` to get the exact file. I pressed enter to run the command.
 
-Notice that this screenshot was before I pressed enter, since running the command would take me to the file contents
+Notice that this screenshot was before I pressed enter, since running the command would take me to the file contents.
 
 ![Image](/lab4_images/lab4_5.png)
 
-Keys Pressed: `G6ker2:wq<ENTER>`. `G` takes me to the bottom of the file. `6k` moves me up 6 lines, to where the line we needed to fix was. `e` goes to the end of the word `index1`, and `r2` replaces the 1 with a 2. `:wq` saves and exits the file, which had to be run by pressing enter
+Keys Pressed: `G6ker2:wq<ENTER>`. `G` takes me to the bottom of the file. `6k` moves me up 6 lines, to where the line we needed to fix was. `e` goes to the end of the word `index1`, and `r2` replaces the 1 with a 2. `:wq` saves and exits the file, which had to be run by pressing enter.
 
-Again notice that this screenshot was before I pressed enter, since running the command would have exited vim
+Again notice that this screenshot was before I pressed enter, since running the command would have exited vim.
 
 ## Step 8 - Re-run the tests
 
