@@ -4,7 +4,7 @@
 
 ![Image](/lab4_images/lab4_1.png)
 
-Keys pressed: `ssh j4suh@ieng6.ucsd.edu<ENTER>`. This command is meant to log me into ieng6 using the key that we made in a previous lab, and enter ran the command.
+Keys pressed: `ssh j4suh@ieng6.ucsd.edu<ENTER>`. This command is meant to log me into ieng6 using the ssh key that we made in a previous lab, and enter ran the command.
 
 ## Step 5 - Cloning the repository
 
