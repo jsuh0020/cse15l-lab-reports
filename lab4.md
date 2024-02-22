@@ -16,7 +16,7 @@ Keys pressed: `git clone git@github.com:jsuh0020/lab7<ENTER>`. This command clon
 
 ![Image](/lab4_images/lab4_3.png)
 
-Keys pressed: `cd l<TAB><ENTER>bash t<TAB><ENTER>`. The `cd` portion of these commands changes my directory into the `lab7` directory, which I accessed by tab completing `l` into `lab7`. Then, I ran the command using enter. Now that I'm in the `lab7` directory, I tab completed `bash t` into `bash test.sh` and pressed enter to run the command. This ran the `test.sh` script, which tests the `ListExamples.java` file. Here, the `merge2` method seems to be failing.
+Keys pressed: `cd l<TAB><ENTER>bash t<TAB><ENTER>`. The `cd` portion of these commands changes my directory into the `lab7` directory, which I accessed by tab completing `l` into `lab7`. Then, I ran the command using enter. Now that I'm in the `lab7` directory, I tab completed `bash t` into `bash test.sh` and pressed enter to run the command. This ran the `test.sh` script, which tests the `ListExamples.java` file. Here, the `merge` method seems to be failing.
 
 ## Step 7 - Edit and fix the test
 
