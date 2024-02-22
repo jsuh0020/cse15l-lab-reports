@@ -42,4 +42,4 @@ Keys Pressed: `<UP><UP><ENTER>`. The `bash test.sh` command was ran 2 commands a
 
 ![Image](/lab4_images/lab4_7.png)
 
-Keys Pressed `git add L<TAB>.j<TAB><ENTER>git commit - m "updated L<TAB>.j<TAB>"<ENTER>git push origin main<ENTER>`. `git add` adds the file with changes to the staging area, and `git commit` commits the changes to the repository, with the `-m` flag allowing the user to add a message. Both of these commands were tab completed similarly to step 7 and were both ran using enter. `git push origin main` pushes the changes to our repository, and enter runs this command.
+Keys Pressed `git add L<TAB>.j<TAB><ENTER>git commit - m "updated L<TAB>.j<TAB>"<ENTER>git push origin main<ENTER>`. `git add` adds the file with changes to the staging area, and `git commit` commits the changes to the repository, with the `-m` flag allowing the user to add a message. Both of these commands were tab completed similarly to step 7 and were both ran by pressing enter. `git push origin main` pushes the changes to our repository, and enter runs this command.
